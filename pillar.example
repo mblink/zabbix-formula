@@ -36,11 +36,11 @@ zabbix-agent:
 
 zabbix-server:
   listenip: 0.0.0.0
-  listenport: 10051
+  listenport: 80
   dbhost: localhost
   dbname: zabbix
   dbuser: zabbixuser
-  dbpass: zabbixpass
+  dbpass: shaken!stirred
   extra_conf: |
     # Here we can set extra server configuration lines
 
@@ -48,7 +48,7 @@ zabbix-mysql:
   dbhost: localhost
   dbname: zabbix
   dbuser: zabbixuser
-  dbpass: zabbixpass
+  dbpass: dA6bBgS0Bflj3e37
   dbuser_host: '%'
 
 zabbix-frontend:
@@ -56,7 +56,7 @@ zabbix-frontend:
   dbhost: localhost
   dbname: zabbix
   dbuser: zabbixuser
-  dbpass: zabbixpass
+  dbpass: dA6bBgS0Bflj3e37
   zbxserver: localhost
   zbxserverport: 10051
   zbxservername: 'Zabbix installed with saltstack'
